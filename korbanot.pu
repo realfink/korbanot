@@ -1,4 +1,7 @@
 @startmindmap
+!$OCCURENCE="<&person>"
+!$TIME="<&moon>"
+!$GIFT="<&basket>"
 skinparam DefaultTextAlignment right
 
 <style>
@@ -17,12 +20,16 @@ left side
 ***:**עולת יחיד**
 * מכפר על עוון עשה
 * מכפר על לאו הניתק לעשה
-* מכפר על הרהורי עברה; <<yachid>>
-*** עולת צבור <<tzibur>>
+* מכפר על הרהורי עברה
+$OCCURENCE; <<yachid>>
+***:**עולת צבור**
+* עולת מוסף
+$TIME; <<tzibur>>
 ** חטאת
 *** חטאת חיצונית
 **** חטאת יחיד <<yachid>>
-***** **חטאת יחיד** <<yachid>>
+*****: **חטאת יחיד**
+$OCCURENCE; <<yachid>>
 ***** **מטאת עולה ויורד** <<yachid>>
 ***** **חטאת עבודה זרה** <<yachid>>
 ***** **חטאת שעיר נשיא** <<yachid>>
