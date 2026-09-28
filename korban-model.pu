@@ -1,0 +1,32 @@
+@startuml
+
+hide empty members
+
+title Korban Model
+
+class "קורבן" as korban
+class "זבח" as zevach
+class "מנחה" as korbanMincha
+class "קורבן עופות" as korbanOfot
+
+zevach -u-|> korban
+korbanMincha -u--|> korban
+korbanOfot -u--|> korban
+
+class "קורבן עולה" as korbanOlah
+class "קורבן חתאת" as korbanChatat
+class "קורבן אשם" as korbanAsham
+class "קורבן שלמים" as korbanShlamim
+
+korbanOlah -u-|> zevach
+korbanChatat -u-|> zevach
+korbanAsham -u-|> zevach
+korbanShlamim -u-|> zevach
+
+class "מנחת נדבה"
+class "מנחת חובה"
+class "מנחת ציבור"
+
+class "מנחת חתאת" as minchatChatat
+
+@enduml
